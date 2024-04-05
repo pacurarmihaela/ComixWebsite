@@ -1,0 +1,126 @@
+
+/* BACKDROP SECTION NO NEED FOR MODIFICATION*/
+.posterContainer{
+    background-repeat: no-repeat;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-size: cover;
+    background-image: var(--img);
+    background-position-y: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+.carous{
+    background-color: khaki;
+    min-width: 100vw;
+}
+
+.wrapper h1{
+    position: fixed;
+    top:20%;
+    padding: 0.5rem;
+    z-index: 3;
+}
+.dcwrapper h1{
+    background-color: rgb(62, 62, 255);
+    color:white;
+    border: 2px solid white;
+    border-radius: 1rem 0rem;
+    box-shadow: 6px 2px 8px darkblue;
+
+}
+
+.marvelwrapper h1{
+    background-color: red;
+    color:aliceblue;
+    border: 2px solid aliceblue;
+    border-radius: 1rem 0rem;
+    box-shadow: 6px 2px 8px darkred;
+}
+.otherwrapper h1{
+    background-color: khaki;
+    color:darkred;
+    border: 2px solid aliceblue;
+    border-radius: 1rem 0rem;
+    box-shadow: 6px 2px 8px darkred;
+}
+
+.aboutSection{
+    background-color: rgb(240, 230, 140);
+    position: absolute;
+    z-index:1;
+    width: 100vw;
+    height: 100vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aboutSection h4{
+    color: darkred;
+    font-size: 2.4rem;
+}
+.aboutSection p{
+    width: 50%;
+    background-color: darkred;
+    color: khaki;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+.comicDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: darkred;
+    color: khaki;
+    padding: 2rem;
+    min-width: 25vw;
+    min-height: 25vh;
+    border-radius: 2rem;
+}
+.comicDetails h2{
+    background-color: khaki;
+    color: darkred;
+    padding: 1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    border-radius: 2rem;
+}
+.comicDetails p{
+    margin: 1rem;
+}
+
+.comicbtn{
+    background-color: khaki;
+    color: darkred;
+    border: 2px solid darkred;
+    width: 100%;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    transition: all 0.5s ease;
+}
+
+.comicbtn:hover{
+    background-color: darkred;
+    color: khaki;
+}
+
+.ArrowkeyBtn{
+    position: absolute;
+    cursor: pointer;
+    background: none;
+    bottom:10%;
+    left: 50%;
+    z-index: 5;
+}
+.key{
+    border-radius: 20rem;
+    padding:0.5rem;
+    background-color: darkred;
+    color: khaki;
+}

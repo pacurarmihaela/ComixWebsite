@@ -1,0 +1,202 @@
+body{
+    background-color: rgb(244, 240, 209);
+}
+
+
+.intro{
+    min-height:90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px dashed   red;
+}
+
+.herodesc{
+    background-color: red;
+    color: khaki;
+    border-radius: 20px;
+    padding: 3rem;
+    min-width: 50%;
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.herodesc h3, .herodesc p{
+    /* background-color: blue; */
+    padding: 3rem;
+}
+.special{
+    background-color: khaki;
+    color: darkred;
+    font-size: 3.5rem; 
+    padding:1rem;
+    border: 2px dashed darkred;
+    box-shadow: 15px 15px 12px darkred;
+    border-radius: 20px;
+    animation: float 1.5s ease-in-out infinite alternate;
+
+}
+.herodesc h3{
+    font-size: 1.3rem;
+}
+
+@keyframes float{
+    from{
+       transform: translateY(-20px);
+       rotate: 10deg;
+    }to{
+       transform: translateY(0px);
+       rotate: -10deg;
+    }
+}
+
+.motionPanel{
+    background-image: none;
+    background-size: cover;
+    min-height:80vh ;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.marvelMotion{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b9/Marvel_Logo.svg");
+    
+}
+
+.dcMotion{
+    background-image: url("https://wallpapercave.com/wp/wp2319920.jpg");
+    background-position: 0 50%;
+   
+}
+.otherPMotion{
+    background-image: url("https://www.onlygfx.com/wp-content/uploads/2017/06/comic-boom-explosion-2-1-1024x754.png");
+
+}
+
+.chaterinoMotion{
+    background-image: none;
+    background-color: khaki;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.infoDetailsContainer{
+    background-color: khaki;
+    width: 20%;
+    height: 60%;
+    margin: auto;
+   padding: 2rem;
+   border-radius: 20px;
+   box-shadow: 10px 10px 10px red;
+   border: 5px solid rgba(238, 64, 64, 0.697);
+}
+
+
+.infoDetailsContainer li{
+    padding: 0.7rem;
+}
+
+
+
+.infoDetailsContainer a{
+    text-decoration: none;
+    color: darkred;
+    padding: 0.5rem;
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px;
+}
+.infoDetailsContainer a:hover{
+    background-color: rgb(197, 36, 36);
+    color:khaki;
+}
+
+.infoDetailsContainer h2{
+    background-color: darkred;
+    border-radius: 6px;
+    margin-left:0rem;
+    padding:0.4rem;
+    color:khaki;
+    margin-left: -2rem;
+}
+
+.infoDetailsContainerMobile{
+    background-color: khaki;
+    margin: auto;
+    animation: none;
+    width: 50%;
+    border: 1px solid darkred;
+}
+
+.imgContainer{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10rem;
+}
+.imgContainer img{
+    border-radius: 20%;
+}
+
+.imgContainer button{
+    background-color: khaki;
+    color: darkred;
+}
+.imgContainer button:hover{
+    background-color: darkred;
+    color: khaki;
+}
+
+.imgContainerMobile{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.imgContainerMobile button{
+    background-color: darkred;
+    color: khaki;
+}
+.imgContainerMobile button:hover{
+    background-color: khaki;
+    color:darkred;
+}
+
+.motionImg{
+   min-height: 50vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.home-button{
+    border-radius: 20px;
+    margin-top: 0.5rem;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+}
+
+.home-button:hover{
+    background-color: darkred;
+    color: khaki;
+}
+
+.chaterino-button{
+    background-color: darkred;
+    color: khaki;
+    border-radius: 2rem;
+    transition: all 0.3s ease-in-out;
+    padding: 3rem;
+}
+
+.chaterino-button:hover{
+    background-color: khaki;
+    color: darkred;
+    box-shadow: inset -13px -13px 3px  darkred;
+    border: solid 1px darkred;
+}
+
+
+/* MOBILE VERSION */

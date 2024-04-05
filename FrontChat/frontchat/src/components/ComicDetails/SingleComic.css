@@ -1,0 +1,98 @@
+.singleComicContainer{
+    background-color: darkred;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.issueMainContainer{
+    background-color: khaki;
+    padding: 3rem 0;
+    border-radius: 2rem;
+    max-height: 70vh;
+    margin-top:10%;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+}
+.issueMainDetails{
+    margin-bottom: 1rem;
+}
+
+ .singleComicContainer h2, .singleComicContainer p{
+    background-color: darkred;
+    color: khaki;
+    border: 1px solid khaki;
+    border-radius: 0.4rem;
+    padding:0.5rem;
+}
+
+.issueListContainer{
+    background-color: darkred;
+    color: khaki;
+    padding: 1rem 0;
+    font-size: 1.1rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+    width: 20vw;
+    overflow-x: hidden;
+}
+
+.issueListContainer h3{
+    margin-bottom: 1rem;
+}
+
+.issueListContainer li{
+    width: 300px;
+}
+.issueListContainer a,.soundtrackDetails a{
+    color: khaki;
+    border-radius: 1rem;
+    border: 1px solid khaki;
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+.issueListContainer a:hover, .soundtrackDetails a:hover{
+    background-color: khaki;
+    color: darkred;
+}
+
+.soundtrackDetails{
+    background-color: khaki;
+    height: 85vh;
+    border-radius: 2rem;
+    overflow-y: scroll;
+}
+
+.soundList{
+    background-color: darkred;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    border-radius: 2rem;
+    margin-bottom: 7rem;
+}
+
+.singleImg{
+    background-color: khaki;
+    display: flex;
+    width: 10rem;
+    margin: auto;
+}
+.singleImg img{
+    height: 20vh;
+    object-fit: cover;
+    margin: auto;
+}
