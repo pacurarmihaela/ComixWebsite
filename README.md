@@ -34,6 +34,11 @@ To run the front end, in the terminal make sure you're in the right folder, run 
 ![Desccription](https://github.com/pacurarmihaela/ComixWebsite/assets/71931876/ab213085-876c-4bad-b638-7bb0bd8f0b98)
 
 
+///Single Comic Page
+
+![SingleComix](https://github.com/pacurarmihaela/ComixWebsite/assets/71931876/e01d913f-2d03-44ac-9a2d-435cc20db69a)
+
+
 ///Chat Component
 
 ![Chat1](https://github.com/pacurarmihaela/ComixWebsite/assets/71931876/ecdf4784-aeb1-42c1-a295-52ef5585e56a)
